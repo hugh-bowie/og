@@ -1,10 +1,10 @@
 # [Original Grind Coffee Co.](https://startbootstrap.com/template/small-business/)
 
-[Small Business](https://startbootstrap.com/template/small-business/) is a responsive marketing landing page template for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
+
 
 ## Preview
 
-[![Small Business Preview](https://assets.startbootstrap.com/img/screenshots/templates/small-business.png)](https://startbootstrap.github.io/startbootstrap-small-business/)
+[![Original Grind Coffee Co.](https://assets.startbootstrap.com/img/screenshots/templates/small-business.png)](https://startbootstrap.github.io/startbootstrap-small-business/)
 
 **[View Live Preview](https://startbootstrap.github.io/startbootstrap-small-business/)**
 
