@@ -4,7 +4,7 @@
 
 ## Preview
 
-[![Original Grind Coffee Co.](https://assets.startbootstrap.com/img/screenshots/templates/small-business.png)](https://startbootstrap.github.io/startbootstrap-small-business/)
+[![Original Grind Coffee Co.](https://github.com/hugh-bowie/og/blob/main/dist/assets/logo.jpg)](https://github.com/hugh-bowie/og/blob/main/dist/assets/logo.jpg)
 
 **[View Live Preview](https://startbootstrap.github.io/startbootstrap-small-business/)**
 
