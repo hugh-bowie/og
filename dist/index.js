@@ -2,222 +2,143 @@
 <html lang="en">
 
     <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <script src="https://kit.fontawesome.com/a0f6ed9619.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/simplelightbox.min.css">
+        <link rel="stylesheet" href="./css/style.css">
         <title>Original Grind Coffee Co.</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
     </head>
 
-    <body>
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#!">Buy Now</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation"><span
-                        class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#!">All Products</a></li>
-                                <li>
-                                    <hr class="dropdown-divider" />
-                                </li>
-                                <li><a class="dropdown-item" href="#!">product one</a></li>
-                                <li><a class="dropdown-item" href="#!">product two</a></li>
-                            </ul>
-                        </li>
+    <body id="home">
+        <nav class="navbar">
+            <div class="container">
+                <h1 class="logo">Cold Brew Coffee Maker -1 Gallon</h1>
+                <ul class="nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!-- <li><a href="#specs">Specs</a></li> -->
+                    <li><a href="#buynow">Buy Now</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Showcase -->
+        <section class="section-a">
+            <div class="container">
+                <div>
+                    <h1>Cold Brew Coffee Maker -1 Gallon</h1>
+
+                    <p>
+                    <h3>About this item</h3>
+                    <ul></ul>
+
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <img src="./img/1.jpg" alt="" />
+            </div>
+        </section>
+
+        <!-- Large Text -->
+        <section id="about" class="section-b">
+            <div class="overlay">
+                <div class="section-b-inner py-5">
+
+                    <h2 class="text-5 mt-1">Enjoy the fresh-brewed taste of cold brew iced coffee.</h2>
+                    <p class="mt-1">
+                    <ul>
+                        <li> If you’re a coffee lover who enjoys cold brew coffee, there’s nothing more enjoyable than
+                            starting your day or topping off the evening with a delicious cup. That’s why we created the
+                            Original Grind Co. Cold Brew Coffee Maker that lets you brew premium, all-natural cold brew
+                            coffee flavors in your own fridge!</li>
+                    </ul><br>
+
+                    <ul>A large, versatile pitcher with stainless-steel filter, this infuser system lets you make up to
+                        16 cups of fresh coffee, tea, or fruit-infused waters completely hands free; and with
+                        barista-quality results. An easy-to-use 1-gallon system that can fit in your refrigerator and
+                        features an adjustable spigot for quick, no-mess pouring, it’s like having your very own coffee
+                        shop at home.
                     </ul>
-                    <form class="d-flex">
-                        <button class="btn btn-outline-dark" type="submit">
-                            <i class="bi-cart-fill me-1"></i>
-                            Cart
-                            <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
-                        </button>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery -->
+        <section class="section-c">
+            <div class="gallery">
+
+                <a href="./img/6.jpg" class="big"><img src="./img/6.jpg" alt="" /></a>
+                <a href="./img/3.jpg" class="big"><img src="./img/3.jpg" alt="" /></a>
+                <a href="./img/4.jpg" class="big"><img src="./img/4.jpg" alt="" /></a>
+                <a href="./img/5.jpg" class="big"><img src="./img/5.jpg" alt="" /></a>
+                <a href="./img/1.jpg" class="big"><img src="./img/1.jpg" alt="" /></a>
+                <a href="./img/7.jpg" class="big"><img src="./img/7.jpg" alt="" /></a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="section-footer py-4 bg-primary">
+            <div class="container">
+                <div>
+                    <h2 class="text-2 mb-1">Lorem ipsum dolor sit.</h2>
+                    <a href="http://twitter.com">
+                        <i class="fab fa-twitter fa-2x"></i>
+                    </a>
+                    <a href="http://facebook.com">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                    <a href="http://youtube.com">
+                        <i class="fab fa-youtube fa-2x"></i>
+                    </a>
+                </div>
+                <div>
+                    <h3>Company Info</h3>
+                    <ul>
+                        <li><a href="#">All Products</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Blog Posts</h3>
+                    <ul>
+                        <li><a href="#">Lorem ipsum dolor.</a></li>
+                        <li><a href="#">Lorem ipsum dolor.</a></li>
+                        <li><a href="#">Lorem ipsum dolor.</a></li>
+                        <li><a href="#">Lorem ipsum dolor.</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Subscribe</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <form class="mt-1" name="email-form" method="POST" data-netlify="true">
+                        <div class="email-form">
+                            <span class="form-control-wrap"><input type="email" name="email" id="email" size="40"
+                                    class="form-control" placeholder="E-mail" /></span><button type="submit"
+                                value="Submit" class="form-control submit">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
                     </form>
                 </div>
             </div>
-        </nav>
-        <!-- Product section-->
-        <section class="py-5">
-            <div class="container px-4 px-lg-5 my-5">
-                <div class="row gx-4 gx-lg-5 align-items-center">
-                    <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="./assets/1.jpg" alt="image 1" />
-                    </div>
-                    <div class="col-md-6">
-                        <div class="small mb-1">SKU: BST-498</div>
-                        <h1 class="display-5 fw-bolder">Shop item template</h1>
-                        <div class="fs-5 mb-5">
-                            <span class="text-decoration-line-through">$45.00</span>
-                            <span>$40.00</span>
-                        </div>
-                        <p class="lead">
-                            <li>FRESH COLD BREW ICED COFFEE – This large cold brew filter system creates up to 16
-                                cups of rich, homemade coffee using your favorite grounds for unbeatable flavor.</li>
-                            <li>ULTRA FINE MESH FILTRATION – Each cold brew maker is fitted with a stainless-steel mesh
-                                filter to help coffee grounds out while maintaining nutrients and fresh taste.</li>
-                            <li>ELEGANT GLASS JAR w/ SPIGOT – Crafted with a food-grade safe borosilicate glass, these
-                                cold
-                                brew pitchers feature an adjustable tap that lets you pour coffee with no mess.</li>
-                            <li>MULTIPURPOSE FRESH BREWING – Along with delicious iced coffee this natural brewer lets
-                                you
-                                brew tea or infuse water with fruits or vegetables for pure, original flavors.</li>
-                            <li>AIRTIGHT FRESHNESS LID – The lid on our coffee maker features a premium seal to help
-                                keep
-                                coffee, tea, or infused water fresh and tasty for up to 2 weeks in the refrigerator.
-                            </li>
-                        </p>
-                        <div class="d-flex">
-                            <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1"
-                                style="max-width: 3rem" />
-                            <button class="btn btn-outline-dark flex-shrink-0" type="button">
-                                <i class="bi-cart-fill me-1"></i>
-                                Add to cart
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Related items section-->
-        <section class="py-5 bg-light">
-            <div class="container px-4 px-lg-5 mt-5">
-                <h2 class="fw-bolder mb-4">Related products</h2>
-                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-                                alt="..." />
-                            <!-- Product details-->
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <!-- Product name-->
-                                    <h5 class="fw-bolder">Fancy Product</h5>
-                                    <!-- Product price-->
-                                    $40.00 - $80.00
-                                </div>
-                            </div>
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View
-                                        options</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <!-- Sale badge-->
-                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">
-                                Sale</div>
-                            <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-                                alt="..." />
-                            <!-- Product details-->
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <!-- Product name-->
-                                    <h5 class="fw-bolder">Special Item</h5>
-                                    <!-- Product reviews-->
-                                    <div class="d-flex justify-content-center small text-warning mb-2">
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                    </div>
-                                    <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$20.00</span>
-                                    $18.00
-                                </div>
-                            </div>
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to
-                                        cart</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <!-- Sale badge-->
-                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">
-                                Sale</div>
-                            <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-                                alt="..." />
-                            <!-- Product details-->
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <!-- Product name-->
-                                    <h5 class="fw-bolder">Sale Item</h5>
-                                    <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$50.00</span>
-                                    $25.00
-                                </div>
-                            </div>
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to
-                                        cart</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-                                alt="..." />
-                            <!-- Product details-->
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <!-- Product name-->
-                                    <h5 class="fw-bolder">Popular Item</h5>
-                                    <!-- Product reviews-->
-                                    <div class="d-flex justify-content-center small text-warning mb-2">
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                    </div>
-                                    <!-- Product price-->
-                                    $40.00
-                                </div>
-                            </div>
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to
-                                        cart</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="py-5 bg-dark">
-            <div class="container">
-                <p class="m-0 text-center text-white">Copyright &copy; Original Grind Coffee Co.</p>
-            </div>
         </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="js/simple-lightbox.min.js"></script>
+        <script>
+            $(function () {
+                const $gallery = $('.gallery a').simpleLightbox();
+            })</script>
     </body>
 
 </html>
